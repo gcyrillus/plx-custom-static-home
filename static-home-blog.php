@@ -1,10 +1,11 @@
 <?php if (!defined('PLX_ROOT')) exit; ?>
 <?php 
- // on valide le template si la configuration de PluXml à une page statique en acceuil.
+ // on valide le template si cette page statique s'affiche en page d'accueil.
  if ($_SERVER['REQUEST_URI'] !=='/') {
-	 include __DIR__.'/static.php';exit;
+	 include __DIR__.'/static.php';
+	 exit;
 	 }
-	 ?>
+?>
 
 <!DOCTYPE html>
 <html lang="<?php $plxShow->defaultLang() ?>">
