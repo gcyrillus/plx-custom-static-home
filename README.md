@@ -10,7 +10,7 @@ complément par l'exemple pour https://wiki.pluxml.org/developper/developpement/
 * Dans la partie édition de votre page statique, choissisez le template `statique-home-blog.php`.
 
 NOTE:
-Ce template ne sera utilisé que si PluXml est configuré avec une page statique en page d'acceuil, si ce n'est pas le cas, le template `statique.php` sera chargé.
+Ce template ne sera utilisé que si votre page statique se trouve en page d'acceuil, sinon ce sera le template `statique.php` qui sera chargé.
 
 Cette vérification est faites au début du fichier du template :
 ```
