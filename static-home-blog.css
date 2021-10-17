@@ -20,7 +20,7 @@ body * {
 }
 body > :is(header, nav, main, aside, footer) {
   border: solid 1px black;
-  background-image: url(../img/bg.jpg);
+  background-image: url(img/bg.jpg);
   transition:0.75s
   }
 body > :is( nav:hover, main:hover, aside:hover, footer:hover) {
