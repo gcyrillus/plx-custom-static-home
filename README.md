@@ -24,3 +24,5 @@ Cette vérification est faites au début du fichier du template :
 ```
 
 exemple d'utilisation visible à http://gcyrillus.alwaysdata.net/ 
+
+<img src="https://i.stack.imgur.com/qJolo.jpg">
