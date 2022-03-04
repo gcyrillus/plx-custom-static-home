@@ -2,7 +2,7 @@
 
 exemple d'utilisation d'un template customisé pour une page statique dans pluxml .
 
-complément par l'exemple pour https://wiki.pluxml.org/developper/developpement/#creer-un-template .
+complément par l'exemple pour https://wiki.pluxml.org/docs/develop/templates.html .
 
 **Usage:** *Dezipper cette archive dans le repertoire de votre théme , exemple pour le théme par défaut*, ou 
 * Ajouter le fichier `statique-home-blog-php` dans le repertoire de votre thème.
