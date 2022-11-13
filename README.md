@@ -15,12 +15,11 @@ Ce template ne sera utilisé que si votre page statique se trouve en page d'acce
 Cette vérification est faites au début du fichier du template :
 ```
 <?php 
- // on valide le template si la configuration de PluXml à une page statique en acceuil.
- if ($_SERVER['REQUEST_URI'] !=='/') {
-	 include __DIR__.'/static.php';
-	 exit;
+ # on valide le template si la page statique s'affiche en acceuil.
+ if ($_SERVER['QUERY_STRING'] !=='') {
+	 include __DIR__.'/static.php';exit;
 	 }
-?>
+?><!DOCTYPE html>
 ```
 
 exemple d'utilisation visible à http://gcyrillus.alwaysdata.net/ 
